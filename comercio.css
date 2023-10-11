@@ -1,0 +1,32 @@
+.inicio{
+    --opacidad-negro: 0.4;
+    background-image: linear-gradient(rgba(0,0,0,var(--opacidad-negro)),rgba(0,0,0, var(--opacidad-negro))),url("../img/Img\ grande\ pag.webp");
+    background-position: center;
+    background-size: cover;
+    height: 65rem;
+}
+.card{
+    width: 18rem;
+    background-color: #515151;
+    .card-title{
+        font-size: 1.3rem;
+        color: #fc0505;
+        text-shadow: 1px,1px,1px,black;
+    }
+    .card-text{
+        font-size: 0.9rem;
+        color:rgb(255,255,255);
+    }
+}
+.navbar{
+    background-color: black;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: darkcyan;
+}
+.navbar-brand{
+    color: white;
+}
